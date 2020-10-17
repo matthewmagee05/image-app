@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
+## Note on CORS
+
+- Due to the nature of Chrome and most modern browsers blocking the download of resources outside of your domain, it's recommended you use a chrome extension like Allow CORS for the application to run correctly. If you notice any CORS errors when trying to download images locally, install this plugin: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
+
 ## Docker Setup
 
 - cd into `local` folder
