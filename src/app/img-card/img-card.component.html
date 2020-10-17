@@ -1,0 +1,8 @@
+<mat-card class="card" matTooltip="Click Image to Download">
+  <img
+    mat-card-image
+    [src]="image.img_src"
+    loading="lazy"
+    (click)="handleDownload(image.id)"
+  />
+</mat-card>

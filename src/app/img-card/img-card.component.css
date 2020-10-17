@@ -1,0 +1,6 @@
+img {
+  max-height: 200px;
+  min-height: 200px;
+  width: auto;
+  cursor: pointer;
+}
