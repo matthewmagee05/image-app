@@ -1,0 +1,7 @@
+version: "3"
+services:
+  image-app:
+    image: image-app
+    build: ../
+    ports:
+      - 80:80

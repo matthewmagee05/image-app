@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
+## Docker Setup
+
+- cd into `local` folder
+- run `docker-compose up -d --build`
+- go to `localhost`
+- Make sure the api project is running as well. Instructions can be found on that repo.
+
+## Run Without Docker
+
+- run `npm install`
+- run `ng s`
+- visit `localhost:4200`
+- ensure the api is running as well. Instructions can be found on that repo.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
